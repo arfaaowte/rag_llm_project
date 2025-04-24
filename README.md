@@ -97,7 +97,7 @@ http://localhost:8000/docs
 ---
 
 ## 🏗️ System Architecture
-![System Architecture](./architecture_image.png)
+![System Architecture](images/architecture_image.png)
 
 
 ## 🌐 System Flow Diagram
@@ -185,7 +185,18 @@ Support multi-hop queries
 
 Integrate PDF/Excel ingestion using Azure Document Intelligence
 
+## Snippets from swagger UI
+
+![S](./images/docs.png)
+
+![S](./images/Screenshot 2025-04-24 at 3.09.58 PM.png)
+
+![S](./images/Screenshot 2025-04-24 at 3.10.20 PM.png)
+
+![S](./images/Screenshot 2025-04-24 at 3.11.44 PM.png)
+
 ---
+
 ## 👤 Maintainer
 Arfa Patekari
 

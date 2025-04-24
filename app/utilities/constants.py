@@ -7,7 +7,7 @@ prompt_with_context = (
     "Do not assume or infer anything beyond what is explicitly stated in the context. "
     "If the answer cannot be found in the context, respond with: "
     "'The context does not contain this information.' "
-    "When answering, explain your reasoning step-by-step and include the specific values used."
+    "When answering the question, do not include any disclaimers or additional information. "
 )
 
 
