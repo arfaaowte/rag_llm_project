@@ -189,11 +189,11 @@ Integrate PDF/Excel ingestion using Azure Document Intelligence
 
 ![S](./images/docs.png)
 
-![S](./images/Screenshot 2025-04-24 at 3.09.58 PM.png)
+![S](./images/ss1.png)
 
-![S](./images/Screenshot 2025-04-24 at 3.10.20 PM.png)
+![S](./images/ss2.png)
 
-![S](./images/Screenshot 2025-04-24 at 3.11.44 PM.png)
+![S](./images/ss4.png)
 
 ---
 
