@@ -37,7 +37,6 @@ The goal is to simulate how AI can enable smart financial analysis by:
    - **Uploading Data**: Users can upload their financial data (JSON format) through the API.
    - **Querying Data**: You can submit natural language questions about the financial data, and the system will retrieve and generate answers based on the context.
 
-
 ## ⚙️ How to Set It Up
 
 ### 1. Clone This Repository
@@ -96,6 +95,9 @@ http://localhost:8000/docs
 - Configure model behavior
 - Enable real-time evaluation
 ---
+
+## 🏗️ System Architecture
+![System Architecture](./architecture_image.png)
 
 
 ## 🌐 System Flow Diagram
