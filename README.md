@@ -61,7 +61,7 @@ anthropic_model=your_anthropic_model
 embedding_model=your_embedding_model
 azure_search_endpoint=your_azure_search_endpoint
 azure_search_key=your_azure_search_key
-=evaluation_model=your_evaluation_model
+evaluation_model=your_evaluation_model
 ```
 
 ### 5. Run the Application
