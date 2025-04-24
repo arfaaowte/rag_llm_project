@@ -189,4 +189,4 @@ Arfa Patekari
 
 📧 aowtearfa@gmail.com
 
-🔗 GitHub Profile
+🔗 [LinkedIn](https://www.linkedin.com/in/arfaaowte/)
