@@ -1,0 +1,11 @@
+fastapi==0.115.12
+uvicorn
+python-multipart
+anthropic==0.50.0
+openai==1.76.0
+pydantic~=2.11.3
+transformers
+sentence-transformers
+ragas~=0.2.14
+langchain-openai
+langchain~=0.3.24
