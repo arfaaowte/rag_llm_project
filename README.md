@@ -4,6 +4,7 @@ This repository presents a Retrieval-Augmented Generation (RAG) framework powere
 
 ---
 
+
 ## 🎯 What This Project Delivers
 
 The goal is to simulate how AI can enable smart financial analysis by:
@@ -26,6 +27,16 @@ The goal is to simulate how AI can enable smart financial analysis by:
 | API Testing Interface | Swagger UI               |
 
 ---
+
+## 📄 Documentation & User Guide
+
+1. **API Documentation**: 
+   The Swagger UI provides interactive documentation of all available endpoints for easy testing and exploration.
+   
+2. **End-User Guide**:
+   - **Uploading Data**: Users can upload their financial data (JSON format) through the API.
+   - **Querying Data**: You can submit natural language questions about the financial data, and the system will retrieve and generate answers based on the context.
+
 
 ## ⚙️ How to Set It Up
 
@@ -77,27 +88,32 @@ Once running, access the API via:
 http://localhost:8000/docs
 ```
 
-Features available in the Swagger UI:
-1.Upload custom data files
-2.Specify index and file scope
-3.Configure model behavior
-4.Enable real-time evaluation
+---
+
+###Features available in the Swagger UI:
+- Upload custom data files
+- Specify index and file scope
+- Configure model behavior
+- Enable real-time evaluation
+---
 
 
-##🌐 System Flow Diagram
+## 🌐 System Flow Diagram
 
 The architecture involves:
-Document ingestion and embedding
+- Document ingestion and embedding
 
-Storage and indexing in Qdrant
+- Storage and indexing in Qdrant
 
-Query handling and semantic retrieval
+- Query handling and semantic retrieval
 
-Answer generation with LLM
+- Answer generation with LLM
 
-Optional RAGAS-based scoring
+- Optional RAGAS-based scoring
 
-##🛠️ Key Capabilities
+---
+
+## 🛠️ Key Capabilities
 Upload ConvFinQA or any custom JSON input
 
 Use filename and index_name to filter response scope
@@ -106,7 +122,8 @@ Customize LLM parameters (temperature, max_tokens, etc.)
 
 Optional accuracy evaluation toggle via enable_evaluation
 
-##💡 Design Rationale
+---
+## 💡 Design Rationale
 Why Azure AI Search?
 
 Azure AI Search was chosen for its robust vector database capabilities, allowing efficient storage and retrieval of embeddings. It also integrates seamlessly with FastAPI, enhancing the overall architecture.
@@ -119,8 +136,9 @@ Why Swagger?
 
 Swagger provides an intuitive, zero-code way to interact with the backend — making it easy for technical and non-technical reviewers to test endpoints.
 
+---
 
-##🔎 Strategic Tradeoff
+## 🔎 Strategic Tradeoff
 I initially explored restructuring tabular JSON data into descriptive paragraphs using LLMs — an approach ideal for retrieval.                             
 
 However:
@@ -132,15 +150,16 @@ Hence, I shifted to directly uploading the structured data with clear instructio
 
 This compromise keeps the pipeline simple and functional, while leaving room for future enhancement with better formatting.
 
+---
 
-##📊 Evaluation with RAGAS
+## 📊 Evaluation with RAGAS
 To measure how effective each answer is, the system optionally uses RAGAS — an open-source evaluation toolkit tailored for RAG pipelines. Metrics include:
 
-Faithfulness: Is the answer grounded in the retrieved context?
+- Faithfulness: Is the answer grounded in the retrieved context?
 
-Context Precision: Were relevant chunks retrieved?
+- Context Precision: Were relevant chunks retrieved?
 
-Relevance: Does the answer address the question?
+- Relevance: Does the answer address the question?
 
 Toggle evaluation using:
 ```python
@@ -148,10 +167,13 @@ enable_evaluation=True
 ```
 in the API call.
 
-##📈 Dataset
+---
+
+## 📈 Dataset
 Used train.json from the ConvFinQA dataset, which includes QA pairs based on complex financial reports and tables.
 
-##🌱 Future Plans
+---
+## 🌱 Future Plans
 
 Reintroduce unstructured transformation of financial tables
 
@@ -161,10 +183,8 @@ Support multi-hop queries
 
 Integrate PDF/Excel ingestion using Azure Document Intelligence
 
-
-##👤 Maintainer
+---
+## 👤 Maintainer
 Arfa Patekari
 
 📧 aowtearfa@gmail.com
-
-🔗 GitHub Profile
