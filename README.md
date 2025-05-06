@@ -1,6 +1,6 @@
 # 💼 Intelligent Financial Question Answering with LLMs + RAG
 
-This repository presents a Retrieval-Augmented Generation (RAG) framework powered by Large Language Models (LLMs) to accurately respond to financial queries from structured documents. Designed for the **Tomoro.ai Technical Challenge**, it leverages the ConvFinQA dataset and integrates scalable components for document ingestion, vector-based retrieval, and dynamic model configuration.
+This repository presents a Retrieval-Augmented Generation (RAG) framework powered by Large Language Models (LLMs) to accurately respond to financial queries from structured documents. It leverages the ConvFinQA dataset and integrates scalable components for document ingestion, vector-based retrieval, and dynamic model configuration.
 
 ---
 
